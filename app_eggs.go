@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/m41denx/alligator/options"
+	"github.com/Coneriys/alligator/options"
 )
 
 type Nest struct {

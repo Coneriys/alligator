@@ -1,3 +1,3 @@
-module github.com/m41denx/alligator
+module github.com/Coneriys/alligator
 
 go 1.22

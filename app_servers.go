@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/m41denx/alligator/options"
+	"github.com/Coneriys/alligator/options"
 )
 
 type AppServer struct {

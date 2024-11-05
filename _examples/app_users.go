@@ -2,10 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/m41denx/alligator/options"
 	"os"
 
-	gator "github.com/m41denx/alligator"
+	"github.com/Coneriys/alligator/options"
+
+	gator "github.com/Coneriys/alligator"
 )
 
 func main() {

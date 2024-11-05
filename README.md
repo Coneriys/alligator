@@ -8,7 +8,7 @@
 
 ### Installation
 ```bash
-go get -u github.com/m41denx/alligator
+go get -u github.com/Coneriys/alligator
 ```
 ---
 
@@ -21,8 +21,8 @@ go get -u github.com/m41denx/alligator
 ```go
 package main
  import (
-	 gator "github.com/m41denx/alligator"
-	 "github.com/m41denx/alligator/options"
+	 gator "github.com/Coneriys/alligator"
+	 "github.com/Coneriys/alligator/options"
  )
 
  func main() {

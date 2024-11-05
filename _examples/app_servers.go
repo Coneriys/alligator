@@ -2,10 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/m41denx/alligator/options"
 	"os"
 
-	gator "github.com/m41denx/alligator"
+	"github.com/Coneriys/alligator/options"
+
+	gator "github.com/Coneriys/alligator"
 )
 
 func main() {
@@ -19,7 +20,7 @@ func main() {
 		DockerImage: "quay.io/parkervcp/pterodactyl-images:base_debian",
 		Startup:     "./${EXECUTABLE}",
 		Environment: map[string]interface{}{
-			"GO_PACKAGE": "github.com/m41denx/alligator",
+			"GO_PACKAGE": "github.com/Coneriys/alligator",
 			"EXECUTABLE": "alligator",
 		},
 		Limits:        &gator.Limits{Memory: 1024, Disk: 1024, IO: 10, CPU: 1, Threads: "0"},

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	gator "github.com/m41denx/alligator"
+	gator "github.com/Coneriys/alligator"
 )
 
 func main() {
